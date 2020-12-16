@@ -42,8 +42,8 @@ xmlhttp.onreadystatechange = function() {
     let res =JSON.parse(this.responseText);
     if(res["success"]){
       window.location.replace("dashboard.html");      
-    }else{
-      alert("Incorect credentials")
+    }else{      
+        errorLogin();           
     }
   }
 };
@@ -55,6 +55,9 @@ xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 
 xmlhttp.send((paraData));
 }
+ 
+
+
 
 
 

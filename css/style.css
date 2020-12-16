@@ -29,7 +29,7 @@ body{
 .table-style{
     position: relative;
     border-collapse: collapse;
-    width: 900px;
+    width: 900px;   
     font-size: 17px;
     font-weight: 600;margin: auto;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.2); 
@@ -42,7 +42,7 @@ body{
 }
 .table-style thead tr{   
     background-color: rgb(116, 155, 187,0.6);
-}
+    }
 
 .table-style tr th,
 .table-style tr td{
